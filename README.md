@@ -23,9 +23,29 @@ Archivo: `datos/ventas.csv`. Dataset simulado de ventas 2024 con columnas: id, f
 - `resultados/grafico_ventas.png` – evolución de ventas
 
 ## Cómo ejecutar el script
+
+### Requisitos
+- Python 3.8+
+- pandas
+- matplotlib
+
+### Instalación de dependencias
+```bash
+pip install pandas matplotlib
+```
+
+### Ejecución local
 ```bash
 cd scripts
 python analisis_ventas.py
+```
+
+### Ejecución en Google Colab
+```python
+!git clone https://github.com/ventricef012-ai/analisis-ventas-tup2026.git
+%cd analisis-ventas-tup2026/scripts
+!pip install pandas matplotlib
+!python analisis_ventas.py
 ```
 
 ## Trazabilidad Jira
